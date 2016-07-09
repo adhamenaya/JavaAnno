@@ -1,0 +1,5 @@
+apply plugin: "java"
+task runApp(type: JavaExec){
+	main = "com.adhamenaya.annotations.RunTest"
+	classpath = sourceSets.main.runtimeClasspath
+}
