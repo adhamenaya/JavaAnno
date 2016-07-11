@@ -10,10 +10,9 @@ import java.lang.annotation.Target;
 public @interface TesterInfo{
 
 	public enum Priority {
-		LOW, MEDIUM, HIGH
+	   LOW, MEDIUM, HIGH
 	}
-	
-	public Priority proirity() default Priority.HIGH;
+	public Priority priority() default Priority.HIGH;
 	public String createdBy() default "Adham Enaya";
 	public String[] tags() default "";
 	public String lastModified() default "09.07.2016";
