@@ -1,4 +1,4 @@
-package com.adhamenaya.Reflection2;
+package com.adhamenaya.reflection2;
 
 /**
  * Created by AENAYA on 08/11/2016.

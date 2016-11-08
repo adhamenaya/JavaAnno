@@ -1,7 +1,6 @@
-package com.adhamenaya.Reflection2;
+package com.adhamenaya.reflection2;
 
 import java.lang.annotation.Annotation;
-import java.lang.reflect.AnnotatedElement;
 import java.lang.reflect.Method;
 
 /**

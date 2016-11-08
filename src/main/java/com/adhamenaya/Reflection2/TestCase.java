@@ -1,4 +1,4 @@
-package com.adhamenaya.Reflection2;
+package com.adhamenaya.reflection2;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

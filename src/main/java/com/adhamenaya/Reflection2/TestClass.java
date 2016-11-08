@@ -1,12 +1,9 @@
-package com.adhamenaya.Reflection2;
-
-import com.sun.org.apache.bcel.internal.generic.RET;
+package com.adhamenaya.reflection2;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
-import java.util.Date;
 
 /**
  * Created by AENAYA on 08/11/2016.
