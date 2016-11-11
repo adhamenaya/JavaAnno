@@ -1,6 +1,5 @@
 package com.adhamenaya.processor;
 
-import java.lang.annotation.Target;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -28,6 +27,7 @@ public class TestAnnotationProcessor extends AbstractProcessor {
 
     @Override
     public boolean process(Set<? extends TypeElement> annotations, RoundEnvironment roundEnv) {
+        messager.printMessage(Diagnostic.Kind.NOTE, "Start processing ...");
 
         for (TypeElement typeElement : annotations) {
             for (Element e : roundEnv.getElementsAnnotatedWith(typeElement)) {
@@ -40,7 +40,6 @@ public class TestAnnotationProcessor extends AbstractProcessor {
     @Override
     public Set<String> getSupportedAnnotationTypes() {
         Set<String> annotations = new HashSet<String>();
-
         annotations.add("com.adhamenaya.processor.TestCase");
         return annotations;
     }
